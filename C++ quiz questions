@@ -6,5 +6,7 @@ printf("%d", !b);
 
 A. False
 B. 0
-C. 1
+C. 1     
 D. This code has an error.
+
+Answer-- C
