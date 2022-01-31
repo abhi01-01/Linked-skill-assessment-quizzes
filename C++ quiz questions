@@ -4,9 +4,24 @@ vector<int> v(22);
 bool b = (v[6]);
 printf("%d", !b);
 
+Options--
+
 A. False
 B. 0
 C. 1     
 D. This code has an error.
 
 Answer-- C
+
+Q2. Which of the following is a reason why using this line is considered a bad practice? (Alternative: Why is using this line considered a bad practice?)
+
+Using namespace std;
+
+Options--
+
+A. The compiled code is always bigger because of all of the imported symbols.
+B. If the code uses a function defined in two different libraries with the same prototype but possibly with different implementations, there will be a compilation error due to ambiguity.
+C. It automatically includes all header files in the standard library (cstdint, cstdlib, cstdio, iostream, etc).
+D. It causes the compiler to enforce the exclusive inclusion of header files belonging to the standard library, generating compilation error when a different header file is included.
+
+Answer-- B    ( Reference-- https://www.geeksforgeeks.org/using-namespace-std-considered-bad-practice/ )
